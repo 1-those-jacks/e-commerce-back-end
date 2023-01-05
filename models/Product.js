@@ -24,7 +24,7 @@ Product.init(
 		},
 		// define price column
 		price: {
-			DataTypes: DECIMAL(10,2),
+			type: DataTypes.DECIMAL,
 			allowNull: false,
 			validate: {isDecimal: true}
 		},
